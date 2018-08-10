@@ -11,7 +11,7 @@ wget http://www-eu.apache.org/dist/couchdb/source/2.2.0/apache-couchdb-2.2.0.tar
 
 tar -xvzf apache-couchdb-2.2.0.tar.gz
 cd apache-couchdb-2.2.0/
-./configure && make release
+sudo ./configure && make release
 
 sudo adduser --system \
         --no-create-home \
