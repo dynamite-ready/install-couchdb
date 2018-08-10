@@ -9,8 +9,8 @@ sudo apt-get --no-install-recommends -y install \
 
 wget http://www-eu.apache.org/dist/couchdb/source/2.1.2/apache-couchdb-2.1.2.tar.gz
 
-tar -xvzf apache-couchdb-2.2.0.tar.gz
-cd apache-couchdb-2.2.0/
+tar -xvzf apache-couchdb-2.1.2.tar.gz
+cd apache-couchdb-2.1.2/
 sudo ./configure && make release
 
 sudo adduser --system \
